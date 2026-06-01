@@ -1,16 +1,81 @@
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=blur&height=60&section=header&reversal=false&text=About%20me&fontSize=30&fontColor=735F5C&fontAlign=50&fontAlignY=15&rotate=2&stroke=-&strokeWidth=0&animation=twinkling&desc=I%E2%80%99m%20a%20bioinformatics%20student%20and%20hobby%20coder&descSize=17&descAlign=50&descAlignY=55&textBg=false&theme=default"  />
-</div>
-
-###
-
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=SMNFL.SMNFL&left_color=coral&left_text=Code-Peeper%20"  />
+  <br>   
+  <img src="https://img.shields.io/github/followers/SMNFL?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/github/stars/SMNFL?style=for-the-badge&logo=github" />
+  <br>
+  <img src="https://img.shields.io/badge/Made%20with-Love-ff69b4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Powered%20by-Coffee-6f4e37?style=for-the-badge&logo=buymeacoffee&logoColor=white" />
+  <br>
+  <img src="https://img.shields.io/badge/F%23-378BBA?style=for-the-badge&logo=fsharp&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/CWL-2B7489?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
+  <br>
+  <img src="https://img.shields.io/badge/Computational%20System%20Biology-FFAD66?style=for-the-badge&logo=dna&logoColor=1F2430" />
+</div>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2" />
+
+<div align="center">
+  <img
+    width="100%"
+    src="https://capsule-render.vercel.app/api?type=blur&height=95&section=header&text=About%20me&fontSize=34&fontColor=FFD580&fontAlign=50&fontAlignY=38&rotate=2&animation=twinkling"
+  />
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=FFAD66&center=true&vCenter=true&width=700&height=32&lines=Bioinformatics+student+%7C+Hobby+coder;Computational+system+biology;F%23+%7C+Python+%7C+CWL+%7C+Docker+%7C+ARCs"
+  />
+  
+  <h3 align="center">
+    I’m a bioinformatics student focused on computational system biology, reproducible workflows, biological data analysis, and machine learning.
+    <br><br>
+    For my studies, I work with research-oriented tools and code automated workflows to extract new knowledge from biological data. In my free time, I like building small apps, websites, bots, and experiments with AI, open-source tools, and anything else I’m curious about.
+  </h3>
 </div>
 
-###
+<pre>
+$ whoami
+Simon
 
-<h3 align="center">I’m using mainly F#, Python, CWL, and Docker for biology research, data analysis, and machine learning. <br><br>Outside of that, I like experimenting with new AI and open-source tools, building small apps, websites, bots, and anything else I’m curious about.</h3>
+$ study_focus
+Bioinformatics • Computational System Biology • Biological Data Analysis
+
+$ main_research_tools
+F# • Python • CWL • Docker
+
+$ hobby_stack
+Websites • Bots • Small Apps • Open-source Experiments
+
+$ currently_exploring
+Reproducible workflows • ML for biology • AI tools • hobby side projects
+</pre>
+
+<details>
+<summary><b>🧬 More about my study and hobby work</b></summary>
+
+<br>
+
+My main academic focus in bioinformatics is computational system biology. I’m interested in reproducible research, biological data analysis, and workflow design for scientific projects.
+
+For study and research-related work, I mostly use:
+
+- <b>F# + .NET and Python</b> for typed tools and small experiments, data analysis, machine learning, and scientific scripting
+- <b>CWL + Docker + ARCs</b> for portable and reproducible bioinformatics workflow automations
+- <b>Machine learning wit Python</b> for exploring biological data or make predictions, image segmentation
+- <b>Computational system biology</b> as my main scientific direction
+
+Outside of university, I code mostly as a hobby. I like experimenting with tools, languages, and ideas that are not always directly related to my studies.
+
+For hobby projects, I enjoy:
+
+- <b>HTML, CSS, and JavaScript</b> for simple websites and interfaces
+- <b>Bots and small apps</b> for automation or fun side projects like a group-moderator-bot
+- <b>AI and open-source tools</b> for learning, prototyping, and curiosity-driven coding
+- <b>anything else I’m curious about</b> :)
+
+</details>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2" />
 
 ###
 
