@@ -107,7 +107,7 @@ For hobby projects, I enjoy:
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/SMNFL/SMNFL/stats-output/stats.svg" height="150" alt="stats graph"  />
-  <img src="https://streak-stats.demolab.com?user=SMNFL&locale=en&mode=weekly&theme=ayu-mirage&hide_border=false&border_radius=3&order=3" height="150" alt="streak graph"  />
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=SMNFL&theme=ayu-mirage&mode=weekly&hide_border=false&border_radius=3" height="150" alt="GitHub streak stats" />
   <img src="https://raw.githubusercontent.com/SMNFL/SMNFL/trophy-output/trophy.svg" height="150" alt="trophy graph"  />
 </div>
 
