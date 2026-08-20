@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: generate trophy.svg
-        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        uses: SMNFL/github-profile-trophy@feature/generate-svg
         with:
           username: ${{ github.repository_owner }}
           file: dist/trophy.svg
