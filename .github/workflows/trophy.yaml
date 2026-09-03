@@ -23,7 +23,7 @@ jobs:
         with:
           username: ${{ github.repository_owner }}
           file: dist/trophy.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_PAT }}  # Use a PAT secret instead
           theme: kimbie_dark
           max-rows: 1
           margin-width: 8
