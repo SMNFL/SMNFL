@@ -2,24 +2,24 @@ name: Generate trophy card
 
 on:
   schedule:
-    # Every Monday at 00:00 UTC
     - cron: "0 0 * * 1"
 
   workflow_dispatch:
 
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
     permissions:
       contents: write
+
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      - name: generate trophy.svg
+      - name: Generate trophy.svg
         uses: SMNFL/github-profile-trophy@feature/generate-svg
         with:
           username: ${{ github.repository_owner }}
@@ -32,10 +32,21 @@ jobs:
           no-background: true
           no-frame: true
 
-      - name: push trophy.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: trophy-output
-          build_dir: dist
+      - name: Push trophy.svg to trophy-output
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN_PAT }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd dist
+
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git checkout -b trophy-output
+          git add trophy.svg
+          git commit -m "Update trophy card"
+
+          git remote add origin \
+            "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          git push --force origin trophy-output
