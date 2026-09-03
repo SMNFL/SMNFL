@@ -29,10 +29,21 @@ jobs:
           token: ${{ secrets.TOKEN_PAT }}
           fail_on_error: true
 
-      - name: Push stats.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: stats-output
-          build_dir: dist
+      - name: Push stats.svg to stats-output
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN_PAT }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd dist
+
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git checkout -b stats-output
+          git add stats.svg
+          git commit -m "Update stats card"
+
+          git remote add origin \
+            "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          git push --force origin stats-output
